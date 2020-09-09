@@ -1,0 +1,44 @@
+h1 {
+    color:blue;
+    background-color:rgb(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px; color:red;}
+/*Parrafo*/
+p{
+    font-family:Arial;
+    color:green;
+    line-height:1.5;
+}
+
+
+#parrafo_uno{
+    font-family:"comic sans MS",Prototype1, Arial, Helvetica, sans-serif; 
+    font-size:20px;
+    text-align: justify;
+}
+
+#parrafo_dos{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: overline;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    width:75%;/* 75 porciento del ancho de la pantalla*/
+}
+
+#parrafo_tres{
+    color:black;
+    text-shadow:3px 3px 3px red ;
+    opacity: 0.8;
+}
+
+/*
+.parrafo_dos{
+    border: 2px solid blue;
+}
+*/

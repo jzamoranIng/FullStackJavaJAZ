@@ -1,0 +1,27 @@
+h1 {
+    color:blue;}
+
+h2 {
+    font-size: 20px; color:red;}
+/*Parrafo*/
+p{
+    font-size:20px;
+}
+
+.parrafo_uno{
+    font-style:italic; font-size:15px;
+}
+
+#final {
+    font-size:15px;
+}
+
+*{
+    background: rgba(225, 0, 0, .25);/* cambios a todos los elemntos de html (todo la pagina), asigna color rojo, transparente 0.25* a todo texto y fondo/*
+                                      /* se combina con los elementos que ya tienen color */
+  }
+
+h2 ~ p {
+    color:green;
+
+}
